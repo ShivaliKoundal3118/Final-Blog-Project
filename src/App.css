@@ -1,0 +1,503 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.login-container {
+  margin-top: 44px;
+  padding: 10px;
+  width: 300px;
+  padding: 30 px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+.input-field {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.label {
+  margin-bottom: 5px;
+  display: block;
+  text-align: center;
+}
+.login-container-1 {
+  padding: 5px;
+}
+.button {
+  width: 100px;
+  height: 35px;
+  align-items: right;
+  border-radius: 5px;
+  padding: 5px;
+  border: 2px solid black;
+  background: transparent;
+  color: black;
+  margin: 1rem auto;
+  outline: none;
+  position: absolute;
+  right: 26px;
+  top: 60px;
+  cursor: pointer;
+}
+.button-3 {
+  width: 40%;
+  height: 35px;
+  align-items: right;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(22, 137, 214);
+  margin: 1rem auto;
+  outline: none;
+  border: none;
+}
+.button-3:hover {
+  background-color: navy;
+  color: white;
+}
+.home-page {
+  background-image: url("IMAGES/adventure.webp");
+  /* background-attachment: fixed; */
+  height: 100vh;
+  background-size: cover;
+  color: white;
+}
+.create-blog-btn {
+  background-color: #4caf50; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.create-blog-btnn {
+  background-color: rgba(255, 0, 0, 0.888); 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.create-blog-btn:hover {
+  background-color: #45a049; 
+}
+
+.create-blog-btn:active {
+  background-color: #3e8e41; 
+  transform: translateY(2px);
+}
+.footer-path {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.881);
+  color: white;
+}
+
+.footer-path > div {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-path h3 {
+  color: white;
+}
+
+.footer-path p {
+  margin: 5px 0;
+}
+
+.footer-path a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footer-path a:hover {
+  text-decoration: underline;
+}
+.navbar {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  display: flex;
+  position: fixed;
+  cursor: pointer;
+  width: 99%;
+  top: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  background-image: url("IMAGES/blogg.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 39px;
+  width: 5%;   
+
+}
+.nav-links{display: inline-flex;list-style-type: none;gap: 40px;}
+.nav-links li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.icons {
+  display: inline-flex;
+  gap: 20px;
+}
+
+.icons svg {
+  margin-right: 10pxpx;
+}
+.box-container {
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffffae;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.box-container form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #007bff;
+}
+
+.header-contents {
+  /* position: absolute; */
+  left: 50%;
+  top: 40%;
+  padding: 120px;
+  /* transform: translate(-50%, -50%); */
+  color: black;
+}
+.next-blog {
+  display: flex;
+}
+.blog-content {
+  text-align: center;
+  padding: 11px;
+  margin-top: 102px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.trip-word {
+  font-size: 30px;
+}
+.trip-word p {
+  font-size: 14px;
+}
+.container {
+  height: 700px;
+}
+.contents {
+  margin: 80px;
+}
+.card-blog {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+}
+.card-1 {
+  background-image: url("IMAGES/swimming.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 25%;
+  height: 500px;
+}
+
+.card-2 {
+  background-image: url("IMAGES/placesvisit.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 25%;
+  height: 500px;
+}
+
+.card-3 {
+  background-image: url("IMAGES/mountains.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 25%;
+  height: 500px;
+}
+
+.card-4 {
+  background-image: url("IMAGES/mountain.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 25%;
+  height: 300px;
+}
+.about-blog{
+  background-image: url('IMAGES/mountimg.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+  .bloger{
+    padding: 120px;
+    
+  }
+.blog-head{
+  text-align: center;
+  padding: 10px;
+  margin-top: -70px;
+  margin-bottom: 20px;
+  color: white;
+}
+.blogger{
+  background-image: url('https://e0.pxfuel.com/wallpapers/46/121/desktop-wallpaper-black-water-background-black.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.error-msg {
+  color:rgb(164, 9, 9);
+  font-style: solid bold;
+  font-size: 20px;
+}
+
+
+.about-content {
+  padding: 60px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.847);
+  color: white;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.about-blog1 {
+  background-image: url('IMAGES/stories.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.contents {
+  margin: 80px;
+}
+.card-blog {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+}
+.card-11 {
+  /* background-image: url("IMAGES/camera.jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 25%;
+  height: 500px;
+}
+
+.card-22 {
+  /* background-image: url("IMAGES/map.jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 25%;
+  height: 500px;
+}
+
+.card-33 {
+  /* background-image: url("IMAGES/market.jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 25%;
+  height: 500px;
+}
+
+.card-44 {
+  /* background-image: url("IMAGES/last.avif"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 25%;
+  height: 300px;
+}
+/* Add these styles to your main CSS file */
+.blog-item {
+  background-color:rgba(255, 255, 255, 0.409);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin: 20px;
+  padding: 20px;
+  max-width: 400px;
+  text-align: left;
+}
+
+.blog-item h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.blog-item h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.blog-item p {
+  font-size: 16px;
+  color: black;
+}
+
+.blog-item button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  background-color: #2bff00;
+  color: black;
+  cursor: pointer;
+}
+
+.blog-item button:hover {
+  background-color: #0056b3;
+}
+
+.create-blog-btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+.create-blog-btn:hover {
+  background-color: #218838;
+}
+
+.box-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color:rgba(255, 255, 255, 0.267);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+/* Blog card container */
+.blog-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 16px;
+  padding: 16px;
+  text-align: left;
+  width: 300px;
+}
+
+/* Blog card title */
+.blog-card h2 {
+  font-size: 24px;
+  margin: 0 0 8px;
+}
+
+/* Blog card subtitle */
+.blog-card h3 {
+  font-size: 20px;
+  margin: 0 0 8px;
+  color: #666;
+}
+
+/* Blog card description */
+.blog-card p {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Blog card buttons */
+.blog-card button {
+  background: #007BFF;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 8px;
+  padding: 8px 16px;
+}
+
+.blog-card button:hover {
+  background: #0056b3;
+}
+
+/* Container for the list of blog cards */
+.blogs-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.create-blog-btn, .create-blog-btn:hover {
+  background: #28a745;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.create-blog-btnnn {
+  background-color: #f44336; /* Red background */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+}
+
+.create-blog-btnnn:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid #f44336;
+}
